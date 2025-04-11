@@ -82,7 +82,7 @@ async def predict(
 
     try:
         df = pd.DataFrame(dictionary, index=[0])
-        # prediction = model.predict(df)
+        #Prediction = model.predict(df)
         return JSONResponse(
             status_code=status.HTTP_200_OK,
             content="B"
